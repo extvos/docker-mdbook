@@ -5,7 +5,7 @@ services:
 
 before_install:
   - docker info
-  - docker build -t hrektts/mdbook .
+  - docker build -t extvos/mdbook .
 
 script:
-  - docker run --rm -it hrektts/mdbook mdbook --version
+  - docker run --rm -it extvos/mdbook mdbook --version
